@@ -1,0 +1,46 @@
+.about-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px 20px;
+  background: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222831;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #00adb5;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  color: #393e46;
+}
+
+.about-description strong {
+  color: #00adb5;
+}
+
+.about-home-link {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #00adb5;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-size: 1rem;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+
+.about-home-link:hover {
+  color: #028a95;
+  border-bottom-color: #028a95;
+}

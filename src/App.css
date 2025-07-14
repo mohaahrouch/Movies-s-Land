@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.title {
+  text-align: center;
+  color: #00ADB5;
+  margin-bottom: 30px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-item {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.movie-item:last-child {
+  border-bottom: none;
+}
+
+.movie-item h3 {
+  margin: 0 0 8px;
+  color: #393E46;
+}
+
+.movie-item p {
+  margin: 0;
+  color: #666;
+}
